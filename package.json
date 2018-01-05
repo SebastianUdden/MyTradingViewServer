@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-	"serve": "node app.js"
+    "serve": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sebastian Udden <sebastian.udden@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.17.1",
     "express": "^4.16.2",
