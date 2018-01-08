@@ -19,7 +19,7 @@ io.on("connection", socket => {
     // Run every minute
     console.log("New client connected"), setInterval(
       () => getApisAndEmit(socket),
-      60000
+      600000
     );
     socket.on("disconnect", () => console.log("Client disconnected"));
 });
